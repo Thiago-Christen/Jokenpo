@@ -12,6 +12,9 @@ vitorias_jogadorA = 0
 vitorias_jogadorB = 0
 empates = 0
 
+while comecar_jogo > 1 :
+    comecar_jogo = int(input("Você quer começar um novo jogo? Se sim digite 1, se não digite 0:  "))
+
 while comecar_jogo == 0 :
     break 
 
