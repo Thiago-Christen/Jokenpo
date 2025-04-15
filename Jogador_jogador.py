@@ -38,7 +38,9 @@ while comecar_jogo == 1 :
 taxa_vitorias_jogadorA = (vitorias_jogadorA)/(total_partidas - empates) * 100
 taxa_vitorias_jogadorB = (vitorias_jogadorB)(total_partidas - empates) * 100
 
+print("\n")
 print("Após", total_partidas, "partidas essas são as estatísticas de vitórias!!")
+print("\n")
 print("A taxa de vitórias do jogador A é:  ", taxa_vitorias_jogadorA)
 print("A taxa de vitórias do jogador B é:  ", taxa_vitorias_jogadorB)
 print("Também tivemos", empates, "empates!! ")
