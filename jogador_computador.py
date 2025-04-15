@@ -45,6 +45,7 @@ taxa_vitorias_computador = (vitorias_computador/(total_partidas - empates)) * 10
 
 print("\n")
 print("Após", total_partidas, "partidas essas são as estatísticas de vitórias!!")
+print("\n")
 print("A taxa de vitórias do jogador A é:  ", taxa_vitorias_jogadorA)
 print("A taxa de vitórias do computador é:  ", taxa_vitorias_computador)
 print("Também tivemos", empates, "empates!! ")
